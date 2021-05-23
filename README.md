@@ -1,4 +1,4 @@
-# Domestika 11ty
+# Example Domestika 11ty
 
 A minimal 11ty starting point.
 
