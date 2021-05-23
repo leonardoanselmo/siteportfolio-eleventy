@@ -1,0 +1,28 @@
+html {
+  --primary-10: #12131A;
+  --primary-9: #1F222F;
+  --primary-8: #2D3143;
+  --primary-7: #3B4057;
+  --primary-6: #484F6C;
+  --primary-5: #565E80;
+  --primary-4: #646C94;
+  --primary-3: #777FA3;
+  --primary-2: #8B92B1;
+  --primary-1: #9FA5BF;
+
+  --secondary-8: #DB0400;
+  --secondary-7: #FD0500;
+  --secondary-6: #FF2420;
+  --secondary-5: #FF4642;
+  --secondary-4: #FF6764;
+  --secondary-3: #FF8886;
+  --secondary-2: #FFAAA8;
+  --secondary-1: #FFF0F0;
+
+  --primary: var(--primary-8);
+  --secondary: var(--secondary-4);
+  --secondary-light: var(--secondary-1);
+
+  --link: var(--primary-8);
+  --link-hover: var(--secondary-5);
+}

@@ -1,0 +1,31 @@
+---
+layout: layouts/full.njk
+title: Fotografia
+eleventyNavigation:
+  key: fotografia
+  title: fotografia
+  order: 3
+---
+
+<div class="fotografia-hero">
+  {% set elemento = {"imagen": "foto-1.jpg"} %}
+  {% include 'components/project.njk' %}
+</div>
+
+<div class="container grid fotografia-contenidos">
+  <div class="fotografia-titulo">
+    <h1 class="text-headline font-2">
+      fotografia.
+    </h1>
+  </div>
+
+  <div class="fotografia-texto">
+    <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus culpa ex quia quisquam id, similique esse vitae beatae tempore commodi explicabo possimus incidunt ea nisi, amet recusandae, consequatur voluptatem dolorum.
+    </p>
+  </div>
+
+  {% for elemento in fotos %}
+    {% include 'components/project.njk' %}
+  {% endfor %}
+</div>
